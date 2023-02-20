@@ -90,7 +90,7 @@
             this.FileBtn.TabIndex = 4;
             this.FileBtn.Text = "File";
             this.FileBtn.UseVisualStyleBackColor = true;
-            this.FileBtn.Click += new System.EventHandler(this.FileBtn_Click);
+            this.FileBtn.Click += new System.EventHandler(this.FromFilebtn_Click);
             // 
             // ToBtn
             // 
@@ -100,7 +100,7 @@
             this.ToBtn.TabIndex = 5;
             this.ToBtn.Text = "File";
             this.ToBtn.UseVisualStyleBackColor = true;
-            this.ToBtn.Click += new System.EventHandler(this.ToBtn_Click);
+            this.ToBtn.Click += new System.EventHandler(this.ToFilebtn_Click);
             // 
             // ResumeBtn
             // 
